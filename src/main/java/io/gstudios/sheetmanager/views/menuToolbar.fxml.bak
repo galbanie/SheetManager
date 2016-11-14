@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.input.KeyCodeCombination?>
+
+<VBox BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <MenuBar>
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                  <MenuItem fx:id="newProject" mnemonicParsing="false" text="New Project" />
+                        <MenuItem fx:id="openProject" mnemonicParsing="false" text="Open Project" />
+                        <MenuItem fx:id="closeProject" mnemonicParsing="false" text="Close Project" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Open File" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Save" />
+                        <MenuItem mnemonicParsing="false" text="Save as" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Setting" />
+                        <MenuItem mnemonicParsing="false" text="Quit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Undo" />
+                        <MenuItem mnemonicParsing="false" text="Redo" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Cut" />
+                        <MenuItem mnemonicParsing="false" text="Copy" />
+                        <MenuItem mnemonicParsing="false" text="Paste" />
+                        <MenuItem mnemonicParsing="false" text="Duplicate" />
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Select All" />
+                        <MenuItem mnemonicParsing="false" text="Select None" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="View">
+                    <items>
+                        <Menu mnemonicParsing="false" text="Files">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="Supersessions" />
+                                <MenuItem mnemonicParsing="false" text="Extract" />
+                                <MenuItem mnemonicParsing="false" text="Items Deleted" />
+                            </items>
+                        </Menu>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Project">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Configuration" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Util">
+                    <items>
+                  <MenuItem mnemonicParsing="false" text="Pattern Manager" />
+                        <Menu mnemonicParsing="false" text="Rules Manager">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="New Rule" />
+                                <MenuItem mnemonicParsing="false" text="Open" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Dictionary">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="New Entry" />
+                            </items>
+                        </Menu>
+                        <MenuItem mnemonicParsing="false" text="Data Entry" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ToolBar prefHeight="40.0" prefWidth="200.0">
+            <items>
+                <Button mnemonicParsing="false" text="Button" />
+            </items>
+        </ToolBar>
+    </children>
+</VBox>
