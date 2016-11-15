@@ -2,18 +2,17 @@ package io.gstudios.sheetmanager;/**
  * Created by Galbanie on 2016-11-12.
  */
 
-import io.datafx.controller.flow.Flow;
-import io.datafx.controller.flow.FlowException;
-import io.datafx.controller.flow.FlowHandler;
-import io.datafx.controller.flow.container.DefaultFlowContainer;
-import io.datafx.controller.flow.context.FXMLViewFlowContext;
-import io.datafx.controller.flow.context.ViewFlowContext;
 import io.gstudios.sheetmanager.controllers.SheetManagerController;
-import io.gstudios.sheetmanager.controllers.projects.NewProjectController;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import org.datafx.controller.flow.Flow;
+import org.datafx.controller.flow.FlowException;
+import org.datafx.controller.flow.FlowHandler;
+import org.datafx.controller.flow.container.DefaultFlowContainer;
+import org.datafx.controller.flow.context.FXMLViewFlowContext;
+import org.datafx.controller.flow.context.ViewFlowContext;
 
 public class SheetManager extends Application {
 
@@ -21,8 +20,8 @@ public class SheetManager extends Application {
         launch(args);
     }
 
-    @FXMLViewFlowContext
-    private ViewFlowContext context;
+    //@FXMLViewFlowContext
+    //private ViewFlowContext context;
 
     @Override
     public void start(Stage primaryStage) throws FlowException {

@@ -10,12 +10,83 @@
    <children>
       <VBox prefHeight="200.0" prefWidth="100.0">
          <children>
-             <fx:include source="menubar.fxml" />
-            <ToolBar prefHeight="40.0" prefWidth="200.0">
-              <items>
-                <Button mnemonicParsing="false" text="Button" />
-              </items>
-            </ToolBar>
+             <MenuBar>
+                 <menus>
+                     <Menu mnemonicParsing="false" text="File">
+                         <items>
+                             <MenuItem fx:id="menuItemNewProject" mnemonicParsing="false" text="New Project" />
+                             <MenuItem fx:id="menuItemOpenProject" mnemonicParsing="false" text="Open Project" />
+                             <MenuItem fx:id="menuItemCloseProject" mnemonicParsing="false" text="Close Project" />
+                             <SeparatorMenuItem mnemonicParsing="false" />
+                             <MenuItem mnemonicParsing="false" text="Open File" />
+                             <SeparatorMenuItem mnemonicParsing="false" />
+                             <MenuItem mnemonicParsing="false" text="Save" />
+                             <MenuItem mnemonicParsing="false" text="Save as" />
+                             <SeparatorMenuItem mnemonicParsing="false" />
+                             <MenuItem mnemonicParsing="false" text="Setting" />
+                             <MenuItem mnemonicParsing="false" text="Quit" />
+                         </items>
+                     </Menu>
+                     <Menu mnemonicParsing="false" text="Edit">
+                         <items>
+                             <MenuItem mnemonicParsing="false" text="Undo" />
+                             <MenuItem mnemonicParsing="false" text="Redo" />
+                             <SeparatorMenuItem mnemonicParsing="false" />
+                             <MenuItem mnemonicParsing="false" text="Cut" />
+                             <MenuItem mnemonicParsing="false" text="Copy" />
+                             <MenuItem mnemonicParsing="false" text="Paste" />
+                             <MenuItem mnemonicParsing="false" text="Duplicate" />
+                             <MenuItem mnemonicParsing="false" text="Delete" />
+                             <SeparatorMenuItem mnemonicParsing="false" />
+                             <MenuItem mnemonicParsing="false" text="Select All" />
+                             <MenuItem mnemonicParsing="false" text="Select None" />
+                         </items>
+                     </Menu>
+                     <Menu mnemonicParsing="false" text="View">
+                         <items>
+                             <Menu mnemonicParsing="false" text="Files">
+                                 <items>
+                                     <MenuItem mnemonicParsing="false" text="Supersessions" />
+                                     <MenuItem mnemonicParsing="false" text="Extract" />
+                                     <MenuItem mnemonicParsing="false" text="Items Deleted" />
+                                 </items>
+                             </Menu>
+                         </items>
+                     </Menu>
+                     <Menu mnemonicParsing="false" text="Project">
+                         <items>
+                             <MenuItem mnemonicParsing="false" text="Configuration" />
+                         </items>
+                     </Menu>
+                     <Menu mnemonicParsing="false" text="Util">
+                         <items>
+                             <MenuItem mnemonicParsing="false" text="Pattern Manager" />
+                             <Menu mnemonicParsing="false" text="Rules Manager">
+                                 <items>
+                                     <MenuItem mnemonicParsing="false" text="New Rule" />
+                                     <MenuItem mnemonicParsing="false" text="Open" />
+                                 </items>
+                             </Menu>
+                             <Menu mnemonicParsing="false" text="Dictionary">
+                                 <items>
+                                     <MenuItem mnemonicParsing="false" text="New Entry" />
+                                 </items>
+                             </Menu>
+                             <MenuItem mnemonicParsing="false" text="Data Entry" />
+                         </items>
+                     </Menu>
+                     <Menu mnemonicParsing="false" text="Help">
+                         <items>
+                             <MenuItem mnemonicParsing="false" text="About" />
+                         </items>
+                     </Menu>
+                 </menus>
+             </MenuBar>
+             <ToolBar prefHeight="40.0" prefWidth="200.0">
+                 <items>
+                     <Button fx:id="buttonNewProject" mnemonicParsing="false" text="New" />
+                 </items>
+             </ToolBar>
             <SplitPane dividerPositions="0.15" prefHeight="862.0" prefWidth="1600.0">
               <items>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />

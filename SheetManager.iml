@@ -9,12 +9,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="io.datafx:core:8.0b9" level="project" />
-    <orderEntry type="library" name="io.datafx:datafx:8.0b9" level="project" />
-    <orderEntry type="library" name="io.datafx:flow:8.0b9" level="project" />
-    <orderEntry type="library" name="io.datafx:injection:8.0b9" level="project" />
-    <orderEntry type="library" name="io.datafx:crud:8.0b9" level="project" />
-    <orderEntry type="library" name="io.datafx:ui:8.0b9" level="project" />
     <orderEntry type="library" name="org.controlsfx:controlsfx:8.0.6_20" level="project" />
+    <orderEntry type="library" name="org.javafxdata:datafx-core:8.0b5" level="project" />
+    <orderEntry type="library" name="org.javafxdata:datafx-flow:8.0b5" level="project" />
   </component>
 </module>

@@ -1,8 +1,8 @@
 package io.gstudios.sheetmanager.controllers.projects;
 
-import io.datafx.controller.FXMLController;
 import javafx.fxml.FXML;
 import javafx.scene.layout.StackPane;
+import org.datafx.controller.FXMLController;
 
 import javax.annotation.PostConstruct;
 
@@ -11,9 +11,6 @@ import javax.annotation.PostConstruct;
  */
 @FXMLController(value = "../../views/projects/newProject.fxml", title = "Create a new project")
 public class NewProjectController {
-
-    @FXML
-    private StackPane root;
 
     @PostConstruct
     public void init(){

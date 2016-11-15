@@ -10,9 +10,9 @@
     <menus>
         <Menu mnemonicParsing="false" text="File">
             <items>
-                <MenuItem fx:id="newProject" mnemonicParsing="false" text="New Project" />
-                <MenuItem fx:id="openProject" mnemonicParsing="false" text="Open Project" />
-                <MenuItem fx:id="closeProject" mnemonicParsing="false" text="Close Project" />
+                <MenuItem fx:id="menuItemNewProject" mnemonicParsing="false" text="New Project" />
+                <MenuItem fx:id="menuItemOpenProject" mnemonicParsing="false" text="Open Project" />
+                <MenuItem fx:id="menuItemCloseProject" mnemonicParsing="false" text="Close Project" />
                 <SeparatorMenuItem mnemonicParsing="false" />
                 <MenuItem mnemonicParsing="false" text="Open File" />
                 <SeparatorMenuItem mnemonicParsing="false" />
