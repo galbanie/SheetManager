@@ -20,18 +20,17 @@ public class SheetManager extends Application {
         launch(args);
     }
 
-    //@FXMLViewFlowContext
-    //private ViewFlowContext context;
-
     @Override
     public void start(Stage primaryStage) throws FlowException {
         /*new Flow(SheetManagerController.class).
                 withLink(SheetManagerController.class, "new", NewProjectController.class).
                 startInStage(primaryStage);*/
 
+        ViewFlowContext flowContext = new ViewFlowContext();
+
         Flow flow = new Flow(SheetManagerController.class);
 
-        FlowHandler flowHandler = flow.createHandler();
+        FlowHandler flowHandler = flow.createHandler(flowContext);
 
         StackPane pane = flowHandler.start(new DefaultFlowContainer());
         primaryStage.setScene(new Scene(pane));
